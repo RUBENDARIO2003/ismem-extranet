@@ -6,4 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-///
+route::get('/alumnos', function () {
+    return view('welcome');
+});
